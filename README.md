@@ -10,6 +10,9 @@ Tally and Crop Season had to solve once and every future app needs again.
 | `ai-coach` | Firebase AI Logic wrapper (key stays server-side, App Check installer), safety settings, rule-engine fallback, CoachChat composable |
 | `data-import` | PDF bank statement import (on-device text extraction), generic statement parser (salary/EMI/UPI tagging), CSV import, SAF pickers |
 | `notif-capture` | NotificationListener with user-picked app allowlist, OTP/sensitive filter, consent-sheet composable, Play-safe: optional, revocable, PDF fallback |
+| `onboarding-kit` | Goal-picker onboarding, persisted answers, category→item recommendation engine |
+| `reminder-kit` | ReminderScheduler (WorkManager daily/interval/parts), permission banner w/ settings fallback, channel gotchas encoded (id bump to change sound, importance frozen) |
+| `store-assets` | Play store-asset generator: feature graphic + device-framed screenshots + metadata JSON, reads core-ui tokens so assets match the app's theme |
 | `template/` | Clonable app skeleton wired to the toolkit (not published) |
 
 ## Use from an app (Jitpack)

@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew :core-ui:publishReleasePublicationToMavenLocal :money-core:publishMavenPublicationToMavenLocal :ai-coach:publishReleasePublicationToMavenLocal :data-import:publishReleasePublicationToMavenLocal :notif-capture:publishReleasePublicationToMavenLocal
+  - ./gradlew :core-ui:publishReleasePublicationToMavenLocal :money-core:publishMavenPublicationToMavenLocal :ai-coach:publishReleasePublicationToMavenLocal :data-import:publishReleasePublicationToMavenLocal :notif-capture:publishReleasePublicationToMavenLocal :onboarding-kit:publishReleasePublicationToMavenLocal :reminder-kit:publishReleasePublicationToMavenLocal :store-assets:publishReleasePublicationToMavenLocal
